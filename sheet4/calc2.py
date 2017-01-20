@@ -8,7 +8,6 @@ operators={"+": operator.add, "-": operator.sub, "*": operator.mul, "/": operato
 
 screen = Label(calculator)
 val =StringVar()
-# variables=[]
 screen.configure(textvariable=val)
 screen.grid(row=6, column=1, columnspan=3)
 val.set(0)
@@ -22,6 +21,7 @@ def set_val(num):
     # variables.append(val)
 
 def set_operation(sign):
+    global wert
     if op != 0:
         wert = op(wert, float(val.get()))
         print(wert)
@@ -31,17 +31,25 @@ def set_operation(sign):
 
     else:
         global op
-        global wert
         wert = float(val.get())
         val.set(sign)
         op = operators[sign]
         print(op)
+
+def clear():
+    global op, wert
+    wert = 0
+    op = 0
+    val.set(wert)
 j=1
 
 for sign in ['+', '-', '*', '/', '=']:
     button = Button(calculator, text=sign, command=lambda sign=sign: set_operation(sign))
     button.grid(row=1, column=j)
     j+=1
+
+button = Button(calculator, text='c', command = lambda: clear())
+button.grid(row=2, column =4)
 
 i=2
 j=1
