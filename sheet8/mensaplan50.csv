@@ -1,0 +1,72 @@
+datum;tag;warengruppe;name;kennz;preis;stud;bed;gast
+12.12.2016;Mo;Suppe;Frühlingszwiebel - Süppchen (3,A,G,I);V;0,60 / 0,80 / 1,30;0,60;0,80;1,30
+12.12.2016;Mo;HG1;Penne  italienisch mit Champignon (A,C,G);V;1,90 / 2,70 / 3,50;1,90;2,70;3,50
+12.12.2016;Mo;HG2;Pfannengyros mit Pommes und Tzaziki (8,G);S;3,00 / 3,80 / 4,50;3,00;3,80;4,50
+12.12.2016;Mo;HG3;Schweine Hütten Cordon Bleu (3,8,A,C,G,I);S;3,00 / 3,80 / 4,00;3,00;3,80;4,00
+12.12.2016;Mo;B1;Penne Rigate (A);V;0,60 / 0,80 / 1,30;0,60;0,80;1,30
+12.12.2016;Mo;B2;Mischsalat;V;0,90 / 1,10 / 1,60;0,90;1,10;1,60
+12.12.2016;Mo;B3;Kartoffel-Gurkensalat (3,16,I,J);VG;0,90 / 1,10 / 1,60;0,90;1,10;1,60
+12.12.2016;Mo;B4;Erbsen-Paprikasalat (16);VG;0,90 / 1,10 / 1,60;0,90;1,10;1,60
+12.12.2016;Mo;B5;Bunte Butterkarotten (G);V;0,90 / 1,10 / 1,60;0,90;1,10;1,60
+12.12.2016;Mo;B6;Pommes frites Wellenschnitt (8);VG;0,90 / 1,10 / 1,60;0,90;1,10;1,60
+12.12.2016;Mo;B7;Gurkencocktail (16,G);V;0,90 / 1,10 / 1,60;0,90;1,10;1,60
+12.12.2016;Mo;B8;Salat Buffet (3,6,16,G,L);;3,00 / 3,50 / 4,20;3,00;3,50;4,20
+12.12.2016;Mo;N1;Sauerkirschquark (G);V;0,70 / 0,90 / 1,30;0,70;0,90;1,30
+12.12.2016;Mo;N2;Bio Schokoladenpudding (G);B,V;0,80 / 1,00 / 1,40;0,80;1,00;1,40
+12.12.2016;Mo;N3;Cappuccinomousse (G);V;1,00 / 1,30 / 1,50;1,00;1,30;1,50
+13.12.2016;Di;Suppe;Nudelsuppe (3,A,C,I);V;0,60 / 0,80 / 1,30;0,60;0,80;1,30
+13.12.2016;Di;HG1;Minirösti mit Bohnen (3,I);V;1,90 / 2,70 / 3,50;1,90;2,70;3,50
+13.12.2016;Di;HG2;Chilli con Soja (VG) mit Baguette(V) (3,A,F,I);VG;2,70 / 3,30 / 4,30;2,70;3,30;4,30
+13.12.2016;Di;HG3;Kasselerbraten mit Knödel (2,3,5,A,G,I,L,AA);S;3,00 / 3,80 / 4,50;3,00;3,80;4,50
+13.12.2016;Di;B1;Sauerkraut (2,3,I);S;0,60 / 0,80 / 1,30;0,60;0,80;1,30
+13.12.2016;Di;B2;Bio Fiocchi (A);B,VG;0,70 / 0,90 / 1,40;0,70;0,90;1,40
+13.12.2016;Di;B3;Reiberknödel (2,3,5,A,L,AA);VG;0,90 / 1,10 / 1,60;0,90;1,10;1,60
+13.12.2016;Di;B4;Salat Rustika (16);VG;0,90 / 1,10 / 1,60;0,90;1,10;1,60
+13.12.2016;Di;B5;Krautsalat bunt (16);VG;0,90 / 1,10 / 1,60;0,90;1,10;1,60
+13.12.2016;Di;B6;Salatmix III;VG;0,90 / 1,10 / 1,60;0,90;1,10;1,60
+13.12.2016;Di;B7;Salat Buffet (3,6,16,G,L);;3,00 / 3,50 / 4,20;3,00;3,50;4,20
+13.12.2016;Di;N1;Stracciatellaquark (A,C,F,G);V;0,70 / 0,90 / 1,30;0,70;0,90;1,30
+13.12.2016;Di;N2;Mango-Joghurt Mousse (F,G);V;0,80 / 1,00 / 1,40;0,80;1,00;1,40
+13.12.2016;Di;N3;Milchreis mit Erdbeeren (G);V;1,00 / 1,30 / 1,50;1,00;1,30;1,50
+14.12.2016;Mi;Suppe;Mango-Zucchini-Suppe (3,I);V;0,60 / 0,80 / 1,30;0,60;0,80;1,30
+14.12.2016;Mi;HG1;Frühlingsrolle mit Sweetchili und Gemüsereis (3,16,A,C,I,J,AA);V;1,90 / 2,70 / 3,50;1,90;2,70;3,50
+14.12.2016;Mi;HG2;Schlemmerfilet mit Butterreis (3,16,A,D,G,I);F,A;2,20 / 2,90 / 3,90;2,20;2,90;3,90
+14.12.2016;Mi;HG3;Currywurst mit Pommes Frites (2,3,8,16,A,I,J);S,R;3,00 / 3,80 / 4,50;3,00;3,80;4,50
+14.12.2016;Mi;B1;Reis (3,I);VG;0,60 / 0,80 / 1,30;0,60;0,80;1,30
+14.12.2016;Mi;B2;Salatmix II;VG;0,90 / 1,10 / 1,60;0,90;1,10;1,60
+14.12.2016;Mi;B3;Tomatensalat (16);VG;0,90 / 1,10 / 1,60;0,90;1,10;1,60
+14.12.2016;Mi;B4;Pommes frites;VG;0,90 / 1,10 / 1,60;0,90;1,10;1,60
+14.12.2016;Mi;B5;Sellerie Karottenrohkost (H,I);V;0,90 / 1,10 / 1,60;0,90;1,10;1,60
+14.12.2016;Mi;B6;Gemüsecocktail Sombrero (3,I);VG;0,90 / 1,10 / 1,60;0,90;1,10;1,60
+14.12.2016;Mi;B7;Salat Buffet (3,6,16,G,L);;3,00 / 3,50 / 4,20;3,00;3,50;4,20
+14.12.2016;Mi;N1;Himbeerjoghurt (G);V;0,70 / 0,90 / 1,30;0,70;0,90;1,30
+14.12.2016;Mi;N2;Eierlikor Pudding (G);V,A;0,70 / 0,90 / 1,30;0,70;0,90;1,30
+14.12.2016;Mi;N3;Mousse Schokolade (G);V;1,00 / 1,30 / 1,50;1,00;1,30;1,50
+15.12.2016;Do;Suppe;Speckklösschensuppe (A,C,G);S,R;0,60 / 0,80 / 1,30;0,60;0,80;1,30
+15.12.2016;Do;HG1;Käsespätzle hausgemacht (3,A,C,G);V;2,20 / 2,90 / 3,90;2,20;2,90;3,90
+15.12.2016;Do;HG2;Paprikarahmschnitzel mit Reis (2,3,A,G,I);S;3,00 / 3,80 / 4,50;3,00;3,80;4,50
+15.12.2016;Do;HG3;Rinderbraten in Rotweinsauce*R (3,16,A,C,I,AA);A;4,20 / 5,20 / 5,70;4,20;5,20;5,70
+15.12.2016;Do;B1;Gemüsereis (3,I);VG;0,60 / 0,80 / 1,30;0,60;0,80;1,30
+15.12.2016;Do;B2;Blumenkohlsalat türkisch (H);VG;0,90 / 1,10 / 1,60;0,90;1,10;1,60
+15.12.2016;Do;B3;Böhmische Knödel (A,C,G);V;0,90 / 1,10 / 1,60;0,90;1,10;1,60
+15.12.2016;Do;B4;Spätzle hausgemacht (3,A,C,AA);V;0,90 / 1,10 / 1,60;0,90;1,10;1,60
+15.12.2016;Do;B5;Blaukraut-Preiselbeerrohkost (3,16);VG;0,90 / 1,10 / 1,60;0,90;1,10;1,60
+15.12.2016;Do;B6;Salatmix I;VG;0,90 / 1,10 / 1,60;0,90;1,10;1,60
+15.12.2016;Do;B7;Bio - Blaukraut;B,VG;0,90 / 1,10 / 1,60;0,90;1,10;1,60
+15.12.2016;Do;B8;Salat Buffet (3,6,16,G,L);;3,00 / 3,50 / 4,20;3,00;3,50;4,20
+15.12.2016;Do;N1;Bananenquark (G);V;0,70 / 0,90 / 1,30;0,70;0,90;1,30
+15.12.2016;Do;N2;Schokopudding (G);V;0,70 / 0,90 / 1,30;0,70;0,90;1,30
+15.12.2016;Do;N3;Fruchtzauber (F,G);V;1,00 / 1,30 / 1,50;1,00;1,30;1,50
+16.12.2016;Fr;Suppe;Bärlauchcremesuppe (3,A,G,I);V;0,60 / 0,80 / 1,30;0,60;0,80;1,30
+16.12.2016;Fr;HG1;Germknödel mit Vanillesauce (A,C,G,AA);V;1,90 / 2,70 / 3,50;1,90;2,70;3,50
+16.12.2016;Fr;HG2;Scholle pan. mit Kräuterquark Dipp und Petersilienkarto. (5,A,D,G,I);F;2,20 / 2,90 / 3,90;2,20;2,90;3,90
+16.12.2016;Fr;HG3;Crunchy-Chicken-Burger mit Pommes Frites (3,16,A,F,I,K);G;3,00 / 3,80 / 4,50;3,00;3,80;4,50
+16.12.2016;Fr;B1;Petersilienkartoffeln (5);VG;0,60 / 0,80 / 1,30;0,60;0,80;1,30
+16.12.2016;Fr;B2;Gemüsemix Excellence (3,I);VG;0,70 / 0,90 / 1,40;0,70;0,90;1,40
+16.12.2016;Fr;B3;Rote Rübensalat (9);VG;0,90 / 1,10 / 1,60;0,90;1,10;1,60
+16.12.2016;Fr;B4;Salatmix III;VG;0,90 / 1,10 / 1,60;0,90;1,10;1,60
+16.12.2016;Fr;B5;Kohlrabirohkost (9,C,G,H,J);V;0,90 / 1,10 / 1,60;0,90;1,10;1,60
+16.12.2016;Fr;B6;Pommes frites;VG;0,90 / 1,10 / 1,60;0,90;1,10;1,60
+16.12.2016;Fr;B7;Salat Buffet (3,6,16,G,L);;3,00 / 3,50 / 4,20;3,00;3,50;4,20
+16.12.2016;Fr;N1;Preiselbeerjoghurt (3,G);V;0,70 / 0,90 / 1,30;0,70;0,90;1,30
+16.12.2016;Fr;N2;Kirschbecher (3,8,A,C,F,G);V,A;1,00 / 1,30 / 1,50;1,00;1,30;1,50

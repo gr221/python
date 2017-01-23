@@ -1,0 +1,53 @@
+#      b   bp    na V4      country
+1  0.512 72.0 149.3 NA    Argentina
+2  0.226 78.2 133.0 NA      Belgium
+3  0.316 73.9 142.6 NA      Belgium
+4  0.042 61.7   5.8 NA       Brazil
+5  0.086 61.4   0.2 NA       Brazil
+6  0.265 73.4 148.9 NA       Canada
+7  0.384 79.2 184.3 NA       Canada
+8  0.501 66.6 194.1 NA     Colombia
+9  0.352 82.1 135.6 NA      Denmark
+10 0.443 75.0 138.7 NA East Germany
+11 0.508 77.5 164.1 NA      Finland
+12 0.465 77.4 144.4 NA      Finland
+13 0.308 79.2 189.7 NA      Hungary
+14 0.280 71.7 135.1 NA      Iceland
+15 0.497 70.7 194.4 NA        India
+16 0.383 73.9 153.2 NA        India
+17 0.436 79.6 175.9 NA        Italy
+18 0.439 69.9 169.9 NA        Italy
+19 0.370 76.0 170.0 NA        Italy
+20 0.321 72.9 162.6 NA        Italy
+21 0.446 68.4 167.1 NA        Japan
+22 0.254 67.2 171.2 NA        Japan
+23 0.497 73.5 201.2 NA        Japan
+24 0.134 67.9  51.3 NA        Kenya
+25 0.309 77.2 165.6 NA        Malta
+26 0.215 72.6 134.6 NA       Mexico
+27 0.301 79.7 146.4 NA  Netherlands
+28 0.047 62.9  26.8 NA          PNG
+29 0.501 66.1 196.4 NA          PRC
+30 0.465 67.4 158.1 NA          PRC
+31 0.399 70.2 242.1 NA          PRC
+32 0.369 75.7 191.8 NA       Poland
+33 0.302 77.9 174.6 NA       Poland
+34 0.679 78.2 175.4 NA     Portugal
+35 0.303 71.4 201.4 NA  South Korea
+36 0.411 72.1 161.8 NA  SovietUnion
+37 0.470 72.7 165.4 NA        Spain
+38 0.490 68.0 175.2 NA        Spain
+39 0.367 75.2 136.2 NA       Taiwan
+40 0.340 75.5 108.3 NA     Trinidad
+41 0.290 73.1 149.9 NA           UK
+42 0.320 71.2 150.0 NA           UK
+43 0.442 72.4 151.8 NA           UK
+44 0.265 70.0 133.8 NA           US
+45 0.294 78.5  95.9 NA      USBlack
+46 0.270 72.4 125.9 NA           US
+47 0.434 73.2 130.3 NA       Hawaii
+48 0.295 81.4 136.6 NA      USBlack
+49 0.204 76.2 133.4 NA           US
+50 0.300 74.7 162.0 NA West Germany
+51 0.303 73.1 172.0 NA West Germany
+52 0.360 75.6 129.7 NA     Zimbabwe
