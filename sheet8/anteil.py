@@ -7,9 +7,8 @@ phys = {
 labels = 'Male', 'Female'
 
 for i in range(1,10):
-    x=330+i
     sizes = [phys['m'][i-1], phys['f'][i-1]]
-    pl.subplot(x)
+    pl.subplot(3,3,i)
     title = "Semster " +str(i)
     pl.title(title)
     pl.pie(sizes, labels = labels,autopct='%.2f%%', radius = 1)
