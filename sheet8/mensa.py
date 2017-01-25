@@ -17,8 +17,8 @@ for i in range(0,len(essen)):
 index = ['Mo', 'Di', 'Mi', 'Do', 'Fr']
 left= np.linspace(0,4,5)
 bar_width=0.4
-rect1 = plt.bar(left-bar_width, zahl_essen.values(),width=bar_width, label='Essen',color='y')
-rect2 = plt.bar(left, zahl_veggie.values(),width=bar_width, label='Veggie', color='g')
+rect1 = plt.bar(left-bar_width/2, zahl_essen.values(),width=bar_width, label='Essen',color='y')
+rect2 = plt.bar(left+bar_width/2, zahl_veggie.values(),width=bar_width, label='Veggie', color='g')
 plt.xticks(range(len(zahl_essen)), index)
 plt.legend()
 plt.show()
