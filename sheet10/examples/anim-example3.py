@@ -4,16 +4,19 @@ import matplotlib.animation as animation
 
 
 def update_line(num, data, line):
-    print(data[..., :num].shape)
+    # print(data[..., :num].shape)
+    print(num)
+    print(data[..., :num])
     line.set_data(data[..., :num])
-    print(line)
+    # print(line)
     return line,
 
 fig1 = plt.figure()
 
 data = np.random.rand(2, 25)
+print(data)
 lines = plt.plot([], [], 'r-')
-print(type(lines[0]))
+# print(type(lines[0]))
 plt.xlim(0, 1)
 plt.ylim(0, 1)
 plt.xlabel('x')
