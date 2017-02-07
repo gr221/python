@@ -80,14 +80,14 @@ class Graph_random(object):
             for j in connected:
                 x_val.append(self.coordinates[j][0])
                 y_val.append(self.coordinates[j][1])
-                ax.plot(x_val, y_val, 'r-')
+                ax.plot(x_val, y_val, 'r-', linewidth=0.2)
                 x_val.pop()
                 y_val.pop()
 
         plt.show()
 
 def main():
-    graph = Graph_random(5, 0.4)
+    graph = Graph_random(30, 0.4)
     print(graph.rdn_graph)
     graph.plot_graph()
 
