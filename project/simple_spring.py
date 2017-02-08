@@ -27,6 +27,7 @@ class Simple_spring(graph_class.Graph_random):
                 self.forces_repel[j][i] = force
                 self.forces_repel[i][j] = force
                 z = force / self.distances[j][i]
+                # Every row is one vertex were you a x and y component of every other vertex [[[x_1,y_0]...]]
                 self.forces_repel_vec[i][j][0] = -z*self.distances_vec[i][j][0]
                 self.forces_repel_vec[i][j][1] = -z*self.distances_vec[i][j][1]
                 self.forces_repel_vec[j][i][0] = -z*self.distances_vec[j][i][0]
@@ -47,20 +48,41 @@ class Simple_spring(graph_class.Graph_random):
                     self.forces_attract_vec[j][i][0] = z*self.distances_vec[j][i][0]
                     self.forces_attract_vec[j][i][1] = z*self.distances_vec[j][i][1]
 
-    # def calc_complete_force(self):
-    #     for i in range(self.nr_vertices):
+    def calc_complete_force(self):
+        for i in range(self.nr_vertices):
+            for j in range(self.nr_vertices):
+                self.forces_complete_vec[i][0] += self.forces_repel_vec[i][j][0]
+                self.forces_complete_vec[i][0] += self.forces_attract_vec[i][j][0]
+                self.forces_complete_vec[i][1] += self.forces_repel_vec[i][j][1]
+                self.forces_complete_vec[i][1] += self.forces_attract_vec[i][j][1]
+
+    def update_position(self):
+        for i in range(self.nr_vertices):
+            self.coordinates[i][0] += self.c_4 * self.forces_complete_vec[i][0]
+            self.coordinates[i][1] += self.c_4 * self.forces_complete_vec[i][1]
+
+    def complete_alg(self, N):
+        for i in range(N):
+            self.calc_repel_force()
+            self.calc_attract_force()
+            self.calc_complete_force()
+            self.update_position()
 
 def main():
-    spring = Simple_spring(3, 0.5, 2, 1, 1, 0.1)
+    spring = Simple_spring(20, 0.2, 2, 1, 1, 0.1)
     # print(spring.rdn_graph)
     # print(spring.distances)
-    spring.calc_attract_force()
+    # spring.calc_attract_force()
     # print(spring.distances_vec)
-    spring.calc_repel_force()
+    # spring.calc_repel_force()
+    # spring.calc_complete_force()
     # print(spring.forces_repel)
-    print(spring.forces_repel_vec)
+    # print(spring.forces_repel_vec)
     # print(spring.forces_attract)
-    print(spring.forces_attract_vec)
+    # print(spring.forces_attract_vec)
+    spring.plot_graph()
+    spring.complete_alg(100)
+    spring.plot_graph()
 
 if __name__=="__main__":
     main()
