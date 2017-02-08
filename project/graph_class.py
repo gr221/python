@@ -64,7 +64,6 @@ class Graph_random(object):
 
     def plot_graph(self):
         labels = ['{0}'.format(i) for i in range(self.nr_vertices)]
-        print("jo", labels)
         fig1 = plt.figure()
         ax = plt.axes(frameon=False)
         ax.set_axis_off()
@@ -74,7 +73,6 @@ class Graph_random(object):
 
         for i in range(0, self.nr_vertices):
             connected = self.rdn_graph[i]
-            print("connections:", connected)
             x_val = [self.coordinates[i][0]]
             y_val = [self.coordinates[i][1]]
             for j in connected:
@@ -87,9 +85,11 @@ class Graph_random(object):
         plt.show()
 
 def main():
-    graph = Graph_random(30, 0.4)
+    graph = Graph_random(3, 0.1)
     print(graph.rdn_graph)
-    graph.plot_graph()
+    print(graph.coordinates)
+    print(graph.distances_vec)
+    # graph.plot_graph()
 
 if __name__=="__main__":
     main()
