@@ -69,19 +69,11 @@ class Simple_spring(graph_class.Graph_random):
             self.update_position()
 
 def main():
-    spring = Simple_spring(20, 0.2, 2, 1, 1, 0.1)
-    # print(spring.rdn_graph)
-    # print(spring.distances)
-    # spring.calc_attract_force()
-    # print(spring.distances_vec)
-    # spring.calc_repel_force()
-    # spring.calc_complete_force()
-    # print(spring.forces_repel)
-    # print(spring.forces_repel_vec)
-    # print(spring.forces_attract)
-    # print(spring.forces_attract_vec)
+    spring = Simple_spring(10, 0.2, 2, 1, 1, 0.1)
     spring.plot_graph()
-    spring.complete_alg(100)
+    spring.complete_alg(200)
+    spring.plot_graph()
+    spring.complete_alg(200)
     spring.plot_graph()
 
 if __name__=="__main__":
