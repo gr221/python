@@ -76,12 +76,12 @@ class Simple_spring(graph_class.Graph_random):
             self.update_position()
 
 def main():
-    spring = Simple_spring(30, 0.2, 2, 1, 1, 0.1)
+    spring = Simple_spring(20, 0.2, 2, 1, 1, 0.1)
     spring.plot_graph()
     spring.complete_alg(20)
     for i in range(10):
-        spring.plot_graph()
         spring.complete_alg(20)
+    spring.plot_graph()
 
 if __name__=="__main__":
     main()
