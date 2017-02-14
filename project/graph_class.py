@@ -8,8 +8,8 @@ class Graph_random(object):
         self.rdn_graph = self.generate_vertices(nr_vertices)
         self.nr_vertices = nr_vertices
         self.generate_edges(self.rdn_graph, edge_prob)
-        self.xlim = 30*nr_vertices
-        self.ylim = 30*nr_vertices
+        self.xlim = 3*nr_vertices
+        self.ylim = 3*nr_vertices
         self.coordinates = self.rand_start_points()
         self.distances, self.distances_vec = self.graph_distances()
 
